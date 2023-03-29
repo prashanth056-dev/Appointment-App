@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.mainBg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  width: 60%;
+}
+.inputCont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.input {
+  width: 70%;
+  height: 40px;
+  border-radius: 5px;
+}
+.btn {
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: #8b5cf6;
+  width: 100px;
+  border: 0px;
+  color: #fff;
+  margin-right: 20px;
+}
+.starr {
+  background-color: #fff;
+  color: #8b5cf6;
+  border: solid 1px #8b5cf6;
+}
+.listCont {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 5px;
+}
